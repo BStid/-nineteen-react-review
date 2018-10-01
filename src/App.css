@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+}
+.side_bar {
+  width: 25vw;
+  height: 100vh;
+  background: #ccc;
+  color: black;
+}
+.main {
+  width: 75vw;
+  height: 100vh;
+  color: black;
+}
+.list {
+  text-align: center;
+  margin: 20px;
+}
+.name {
+  margin: 7.5px;
+  cursor: pointer;
+}
+button {
+  padding: 7.5px;
+}
